@@ -1,0 +1,23 @@
+# markdown adn highlighter
+markdown:    kramdown
+highlighter: rouge
+
+# permalinks
+permalink:  pretty
+
+# Server
+url:        arguiot.github.io
+baseurl:    /noobscroll
+
+# Custom variables
+version:    v1.0
+# cdn:        https://unpkg.com/waffle-grid
+# repo:       https://github.com/lucasgruwez/waffle-grid
+# download:   https://github.com/lucasgruwez/waffle-grid/releases/download/v1.3.3/waffle-grid.min.css
+# docs:       https://github.com/lucasgruwez/waffle-grid/wiki
+# stargazers: https://github.com/lucasgruwez/waffle-grid/stargazers
+
+# npm:        https://npmjs.com/package/waffle-grid
+author:
+  github:   https://github.com/arguiot
+  twitter:  https://twitter.com/arthur_guiot

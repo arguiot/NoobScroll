@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <!--[if lte IE 9]
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    {% include nav.html %}
+    {{content}}
+    {% include footer.html %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/js/functions.js"></script>
+    <script src="https://www.w3counter.com/tracker.js?id=109903"></script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    <script>
+        window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+        ga('create','UA-XXXXXX-X','auto');ga('send','pageview')
+    </script>
+  </body>
+</html>
