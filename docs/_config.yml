@@ -6,8 +6,8 @@ highlighter: rouge
 permalink:  pretty
 
 # Server
-url:        noobscroll.js.org
-baseurl:    /
+#url:        noobscroll.js.org
+baseurl:    noobscroll.js.org
 
 # Custom variables
 version:    v1.0
