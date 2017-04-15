@@ -7,7 +7,7 @@ permalink:  pretty
 
 # Server
 url:        noobscroll.js.org
-baseurl:    /
+baseurl:    
 
 # Custom variables
 version:    v1.0
