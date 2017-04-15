@@ -6,8 +6,8 @@ highlighter: rouge
 permalink:  pretty
 
 # Server
-url:        arguiot.github.io
-baseurl:    /NoobScroll
+url:        noobscroll.js.org
+baseurl:    /
 
 # Custom variables
 version:    v1.0
