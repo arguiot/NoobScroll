@@ -12,12 +12,14 @@ baseurl:    /NoobScroll
 # Custom variables
 version:    v1.0
 # cdn:        https://unpkg.com/waffle-grid
-# repo:       https://github.com/lucasgruwez/waffle-grid
-# download:   https://github.com/lucasgruwez/waffle-grid/releases/download/v1.3.3/waffle-grid.min.css
-# docs:       https://github.com/lucasgruwez/waffle-grid/wiki
-# stargazers: https://github.com/lucasgruwez/waffle-grid/stargazers
+repo:       https://github.com/arguiot/NoobScroll
+download:   https://github.com/arguiot/NoobScroll/releases/download/v1.0.0/noobscroll.min.js
+docs:       https://github.com/arguiot/NoobScroll/wiki
+stargazers: https://github.com/arguiot/NoobScroll/stargazers
 
 # npm:        https://npmjs.com/package/waffle-grid
 author:
   github:   https://github.com/arguiot
   twitter:  https://twitter.com/arthur_guiot
+inspiration:
+  github:   https://github.com/lucasgruwez
