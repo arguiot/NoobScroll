@@ -1,7 +1,7 @@
 $(window).scroll(function() {
   var wScroll = $(this).scrollTop();
   var jumpIn  = $('header').height();
-  var jumpOut = $('#docs-cta').offset().top - wScroll - $(this).height();
+  var jumpOut = $('#docs-cta').offset().top - wScroll - $(this).height() + 200;
   if (wScroll >= jumpIn && jumpOut > 0) {
     $('.gist.js-activated').addClass('visible')
   } else {
