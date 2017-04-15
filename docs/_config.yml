@@ -11,13 +11,13 @@ baseurl:    /NoobScroll
 
 # Custom variables
 version:    v1.0
-# cdn:        https://unpkg.com/waffle-grid
+cdn:        https://unpkg.com/noobscroll/dist/noobscroll.min.js
 repo:       https://github.com/arguiot/NoobScroll
 download:   https://github.com/arguiot/NoobScroll/releases/download/v1.0.0/noobscroll.min.js
 docs:       https://github.com/arguiot/NoobScroll/wiki
 stargazers: https://github.com/arguiot/NoobScroll/stargazers
 
-# npm:        https://npmjs.com/package/waffle-grid
+npm:        https://www.npmjs.com/package/noobscroll
 author:
   github:   https://github.com/arguiot
   twitter:  https://twitter.com/arthur_guiot

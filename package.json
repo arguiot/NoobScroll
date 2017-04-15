@@ -18,7 +18,8 @@
     "scroll",
     "jquery",
     "plugin",
-    "scrolling"
+    "scrolling",
+    "jquery-plugin"
   ],
   "author": "Arthur Guiot",
   "license": "MIT",
