@@ -29,13 +29,13 @@
     	var settings = $.extend( {}, defaults, options );
     	switch (settings.direction) {
     		case "y":
-    			elem.css("overflow-y", "none");
+    			elem.css("overflow-y", "hidden");
     			break;
     		case "x":
-    			elem.css("overflow-x", "none");
+    			elem.css("overflow-x", "hidden");
     			break;
     		default:
-    			elem.css("overflow", "none");
+    			elem.css("overflow", "hidden");
     	}
 	}
 	$.fn.disableSelection = function() {
