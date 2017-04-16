@@ -22,7 +22,7 @@ To use noobscroll.js, you'll need to download noobscroll.js and add it in your j
 ```
 or you can install NoobScroll using [npm](https://npmjs.com/package/noobscroll)
 ```bash
-$ npm install waffle-grid
+$ npm install noobscroll
 ```
 
 ## Demo
