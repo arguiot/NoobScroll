@@ -135,4 +135,14 @@
 		    scrollTop: settings.val
 		}, settings.duration);
 	};
+
+	$.fn.scrollProgress = function (content, func) {
+		var elem = $(this);
+		elem.scroll(function() {
+		  var wintop = elem.scrollTop(), docheight = content.height(), winheight = elem.height();
+		  // console.log(docheight);
+		  var totalScroll = (wintop/(docheight-winheight))*100;
+      	  func(totalScroll);
+		});
+	};
 }( jQuery ));
