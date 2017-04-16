@@ -3,17 +3,18 @@
 
 A lightweight jQuery Plugin that adds some cool function to make scrolling more fun.
 
-  [
+  
     [![GitHub release](https://img.shields.io/github/release/arguiot/NoobScroll.svg)](https://github.com/arguiot/NoobScroll/releases)
-  ]()
-  [
+  
+  
     [![Github All Releases](https://img.shields.io/github/downloads/arguiot/NoobScroll/total.svg)](https://github.com/arguiot/NoobScroll/)
-  ]()
-  [
+  
+  
     ![License](https://img.shields.io/github/license/arguiot/NoobScroll.svg)
-  ](LICENSE)
+  
 
 </center>
+
 ## Getting Started
 
 To use noobscroll.js, you'll need to download noobscroll.js and add it in your js folder. And after, add these line of code in the head or in the body of your page:

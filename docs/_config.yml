@@ -11,7 +11,7 @@ permalink:  pretty
 
 # Custom variables
 version:    v1.0
-cdn:        https://unpkg.com/noobscroll/dist/noobscroll.min.js
+cdn:        https://unpkg.com/noobscroll@latest/dist/noobscroll.min.js
 repo:       https://github.com/arguiot/NoobScroll
 download:   https://github.com/arguiot/NoobScroll/releases/download/v1.0.0/noobscroll.min.js
 docs:       https://github.com/arguiot/NoobScroll/wiki
