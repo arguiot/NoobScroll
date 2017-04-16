@@ -72,6 +72,7 @@
 		var defaults = {
         	click: "dbl",
         	duration: 1000,
+        	margin: 10,
     	};
  
     	var settings = $.extend( {}, defaults, options );
@@ -80,7 +81,7 @@
     			elem.dblclick(function(e){
 			    	var target = $(e.target);
 			        $('html, body').animate({
-					    scrollTop: target.offset().top
+					    scrollTop: target.offset().top - settings.topheight
 					}, settings.duration);
 			    });
     			break;
