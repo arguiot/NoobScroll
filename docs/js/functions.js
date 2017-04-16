@@ -10,11 +10,12 @@ $(window).scroll(function() {
 });
 
 $('nav .hamburger').click(function () {
-  $('.js-toggled').toggleClass('visible')
+  $('.js-toggled').toggleClass('visible');
+  if ($(".js-toggled").hasClass("visible")) {
+		$("body").scrollDisable();
+	}
 });
-if ($(".js-toggled").hasClass("visible")) {
-	$("body").scrollDisable();
-}
+
 $(window).scroll(function () {
 	var wScroll = $(this).scrollTop();
 	  var jumpIn  = $('header').height() + 100;
