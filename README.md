@@ -33,7 +33,7 @@ $ npm install noobscroll
 $("body").scrollDrag();
 
 // Add a scroll bar to a div or any element
-$(".myDiv").scroll({
+$(".myDiv").scrollMake({
   direction: "xy", // add a scroll bar for the the x and y axe
 });
 
