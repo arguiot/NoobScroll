@@ -1,6 +1,6 @@
 (function ( $ ) {
  	
-	$.fn.scroll = function (options) {
+	$.fn.scrollMake = function (options) {
 		var elem = $(this);
 		var defaults = {
         	direction: "y",
