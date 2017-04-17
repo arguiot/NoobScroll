@@ -146,4 +146,19 @@
       	  func(totalScroll);
 		});
 	};
+
+	$.fn.scrollOn = function (val, func1, func2) {
+		var elem = $(this);
+		$(window).scroll(function() {
+		   var hT = elem.offset().top,
+		       hH = elem.outerHeight(),
+		       wH = $(window).height(),
+		       wS = $(document).scrollTop();
+		   if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH)){
+		      func1();
+		   } else {
+		      func2();
+		   }
+		});
+	};
 }( jQuery ));
