@@ -10,7 +10,7 @@ permalink:  pretty
 #baseurl:    ./
 
 # Custom variables
-version:    v1.0
+version:    v1.0.1
 cdn:        https://unpkg.com/noobscroll@latest/dist/noobscroll.min.js
 repo:       https://github.com/arguiot/NoobScroll
 download:   https://github.com/arguiot/NoobScroll/releases/download/v1.0.0/noobscroll.min.js
