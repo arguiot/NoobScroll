@@ -150,7 +150,7 @@
 	$.fn.scrollOn = function (val, func1, func2) {
 		var elem = $(this);
 		$(window).scroll(function() {
-		   var hT = elem.offset().top,
+		   var hT = elem.offset().top + val,
 		       hH = elem.outerHeight(),
 		       wH = $(window).height(),
 		       wS = $(document).scrollTop();

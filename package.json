@@ -1,6 +1,6 @@
 {
   "name": "noobscroll",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight jQuery Plugin that adds some cool function to make scrolling more fun.",
   "main": "dist/noobscroll.min.js",
   "directories": {
