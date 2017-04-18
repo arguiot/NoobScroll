@@ -4,16 +4,16 @@ node_js:
   - "node"
 
 before_install:
-  - npm install -g npm@4.5.0
+  - npm install -g npm@latest
 
 install:
   - npm install
 
 before_script:
-  - npm install -g gulp
+  - npm install gulp --save-dev
 
 script:
-  - gulp
+  - gulp build
 
 notifications:
   email: false
