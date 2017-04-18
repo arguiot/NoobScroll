@@ -4,6 +4,7 @@
 A lightweight jQuery Plugin that adds some cool function to make scrolling more fun.
 
 [![GitHub release](https://img.shields.io/github/release/arguiot/NoobScroll.svg)](https://github.com/arguiot/NoobScroll/releases)
+[![Build Status](https://travis-ci.org/arguiot/NoobScroll.svg?branch=master)](https://travis-ci.org/arguiot/NoobScroll)
 [![Github All Releases](https://img.shields.io/github/downloads/arguiot/NoobScroll/total.svg)](https://github.com/arguiot/NoobScroll/)
 [![npm](https://img.shields.io/npm/dt/noobscroll.svg)](https://www.npmjs.com/package/noobscroll)
 [![License](https://img.shields.io/github/license/arguiot/NoobScroll.svg)](LICENSE)
