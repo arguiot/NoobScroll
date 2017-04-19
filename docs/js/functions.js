@@ -28,3 +28,9 @@ $(window).scroll(function () {
 		'top': 0-($(this).scrollTop() / 3) + "px"
 	});
 });
+$(document).ready(function () {
+	$.getJSON("https://unpkg.com/noobscroll?json", function (data) {
+		var size = data.size / 1000;
+		$(".kb").text(size);
+	});
+});
