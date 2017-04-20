@@ -56,6 +56,8 @@ nav {
         padding: 5px 20px;
         text-decoration: none;
         position: relative; }
+    nav ul li:hover {
+      text-decoration: underline; }
   nav .hamburger {
     position: absolute;
     right: 25px;

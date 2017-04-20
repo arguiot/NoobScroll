@@ -10,8 +10,12 @@ $(window).scroll(function() {
 });
 
 $('nav .hamburger').click(function () {
-  $('.js-toggled').toggleClass('visible')
+  $('.js-toggled').toggleClass('visible');
+  if ($(".js-toggled").hasClass("visible")) {
+		$("body").scrollDisable();
+	}
 });
+
 $(window).scroll(function () {
 	var wScroll = $(this).scrollTop();
 	  var jumpIn  = $('header').height() + 100;
@@ -22,5 +26,11 @@ $(window).scroll(function () {
 	  }
 	$("header").css({
 		'top': 0-($(this).scrollTop() / 3) + "px"
+	});
+});
+$(document).ready(function () {
+	$.getJSON("https://unpkg.com/noobscroll?json", function (data) {
+		var size = data.size / 1000;
+		$(".kb").text(size);
 	});
 });
