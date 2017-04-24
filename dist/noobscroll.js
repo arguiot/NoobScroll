@@ -194,4 +194,18 @@
 		   }
 		});
 	};
+    $.fn.scrollSpeed = function (func) {
+        var elem = $(this);
+        var lastOffset = elem.scrollTop();
+        var lastDate = new Date().getTime();
+        elem.scroll(function(e) {
+            var delayInMs = e.timeStamp - lastDate;
+            var offset = e.target.scrollTop - lastOffset;
+            var speedInpxPerMs = offset / delayInMs;
+            func(speedInpxPerMs);
+
+            lastDate = e.timeStamp;
+            lastOffset = e.target.scrollTop;
+        });
+    };
 }));
