@@ -175,7 +175,7 @@
 		elem.scroll(function() {
 		  var wintop = elem.scrollTop(), docheight = content.height(), winheight = elem.height();
 		  // console.log(docheight);
-		  var totalScroll = (wintop/(docheight-winheight))*100;
+		  var totalScroll = Math.abs((wintop/(docheight-winheight))*100);
       	  func(totalScroll);
 		});
 	};
